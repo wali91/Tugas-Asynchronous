@@ -9,6 +9,7 @@ ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bers
 **2.Arrow function :**
 penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
 const b = (x,y) => x+y;
+
 const c = (x,y,z) =>{
        return x+y*z;
  }
@@ -35,4 +36,11 @@ for(const m of array){
 
 5.**Array.find**
 
-6.** dan masih banyak lagi [link ke kode es6](http://es6-features.org/)**
+6.**dan masih banyak lagi [link ke kode es6](http://es6-features.org/)**
+
+* **Javascript**
+- **Array**
+-**Object**
+-**function**
+-**Asynchronous**
+
