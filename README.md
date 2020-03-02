@@ -39,7 +39,9 @@ for(const m of array){
 6.**dan masih banyak lagi [link ke kode es6](http://es6-features.org/)**
 
 * **Javascript**
+
 -**Array**
+Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam function ataupun ke dalam object atau array.
 
 -**Object**
 
