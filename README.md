@@ -2,6 +2,7 @@
 * **Ecma-Script**
 EcmaScript adalah sebuah standarisasi scripting javascript yang dibuat oleh **European Computer Manufacture Association/(ECMA)**
 ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015. 
+
 **1.variable :**
 ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bersifat mutable/dapat dirubah dan const bersifat imutable/tidak dapat dirubah
 **2.Arrow function :**
