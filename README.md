@@ -33,13 +33,15 @@ for(const m of array){
 }
 
 4.**Array.fill**
-pengisian value pada array 
+pengisian value pada array
+
 example :
 const array1 = [1,2,3,4]
 console.log(array1.fill(0,2,4)) //expect array1 = [1,2,0,0] //mengisi angka 0 dimulai pada index 2 dan berakhir pada index 4
 
 5.**Array.find**
 find : mengembalikan nilai dari elemen pertama yang ditemukan pada suatu Array
+
 example :
 const array = [5, 12, 8, 130, 44]
 const found = array.find(it => it > 10) 			//`Elemen 12`
