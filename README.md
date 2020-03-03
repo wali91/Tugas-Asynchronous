@@ -57,7 +57,14 @@ let arr1=["mentari","ronaldinho","rivaldo"]
            arr1[0]="rudy";  
            console.log(arr1);  //expected arr: [mentari,ronaldinho,rivaldo]
            console.log(arr);    //expexted arr1: [rudy,ronaldinho,rivaldo] 
--**Object*
+-**Object**
+spread operator pada object : spread operator juga bisa diterapkan di object
+contoh:
+//diterapkan pada destructor object
+let dest = {nama:"wali",alamat:"jakarta",umur:28};
+
+let {nama,...bio}=dest;
+console.log(bio); //expected {alamat:jakarta,umur:28} 
 
 -**function**
 Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
@@ -76,4 +83,5 @@ function(){
  fun() //expected heloo world
 
 -**Asynchronous**
+Proses eksekusi kode pada program yang berjalan tidak berurutan tanpa harus menunggu perintah kode sebelumnya selesai.
 
