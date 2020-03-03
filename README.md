@@ -123,3 +123,21 @@ setTimeout(() => console.log(`world ${a}`), a);  // dan ini ke-3
 
 console.log("reborn");                          // ini ke-2
 
+-**callback**
+
+sebuah function yang memanggil parameter function tersebut dan menjalankannya kembali kedalam function yang berbeda
+
+example:
+
+function callbck(callback){
+            let nama = prompt("masukan nama:");
+            callback(nama);
+        }
+        //panngil calback
+        callbck(nama => alert(`nama saya ${nama}`));
+
+-**Promise**
+
+
+
+
