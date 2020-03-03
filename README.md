@@ -45,6 +45,7 @@ Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam f
 spread berfungsi untuk mengabungkan 2 array atau lebih dan juga untuk mengcopy array
 example:
 let arr=["walie","songo","rendy","ronaldo"]
+
 let arr1=["mentari","ronaldinho","rivaldo"]
 
           //spread
