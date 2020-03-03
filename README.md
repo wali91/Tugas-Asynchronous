@@ -105,9 +105,11 @@ function(){
 Proses eksekusi kode pada program yang berjalan tidak berurutan tanpa harus menunggu perintah kode sebelumnya selesai.
 
 example :
-
 const a = Math.floor(Math.random() * 1000) + 1;  //
+
 console.log("hello");                            // ini akan tampil pertama
+
 setTimeout(() => console.log(`world ${a}`), a);  // dan ini ke-3
+
 console.log("reborn");                          // ini ke-2
 
