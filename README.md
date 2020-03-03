@@ -3,10 +3,10 @@
 EcmaScript adalah sebuah standarisasi scripting javascript yang dibuat oleh **European Computer Manufacture Association/(ECMA)**
 ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015. 
 
-**1.variable :**
+**1. variable :**
 ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bersifat mutable/dapat dirubah dan const bersifat imutable/tidak dapat dirubah
 
-**2.Arrow function :**
+**2. Arrow function :**
 penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
 const b = (x,y) => x+y;
 
@@ -14,7 +14,7 @@ const c = (x,y,z) =>{
        return x+y*z;
  }
  
-**3.for of dan for in:**
+**3. for of dan for in:**
 for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
 //penggunaan for of pada array
 let array = ['rendi',28,'jakarta]
