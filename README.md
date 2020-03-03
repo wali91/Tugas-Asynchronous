@@ -42,10 +42,38 @@ for(const m of array){
 
 -**Array**
 Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam function ataupun ke dalam object atau array.
+spread berfungsi untuk mengabungkan 2 array atau lebih dan juga untuk mengcopy array
+example:
+let arr=["walie","songo","rendy","ronaldo"]
+let arr1=["mentari","ronaldinho","rivaldo"]
 
--**Object**
+          //spread
+          let allArr=[...arr,...arr1]; //expected:[wali,songo.rendy,ronaldo,mentari,ronaldinho,rivaldo]
+         //concat
+         let allArr = arr.concat(arr1);  //expected:[wali,songo.rendy,ronaldo,mentari,ronaldinho,rivaldo]              
+
+         //mengopy array
+          let arr1 = [...arr]; 
+           arr1[0]="rudy";  
+           console.log(arr1);  //expected arr: [mentari,ronaldinho,rivaldo]
+           console.log(arr);    //expexted arr1: [rudy,ronaldinho,rivaldo] 
+-**Object*
 
 -**function**
+Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
+function ada 2 : 
+1. function expression :function dapat didefinisikan dengan menggunakan expression yang dapat disimpan dalam sebuah variabel.
+  contoh :
+  let fun = function(){
+     console.log('heloo world')
+ } 
+ fun() //expected heloo world
+2. function declaration : function yang dideklarasikan tanpa menggunakan variable
+contoh:
+function(){
+     console.log('heloo world')
+ } 
+ fun() //expected heloo world
 
 -**Asynchronous**
 
