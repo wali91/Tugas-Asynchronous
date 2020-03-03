@@ -2,16 +2,17 @@
 
 * **Ecma-Script**
 
-EcmaScript adalah sebuah standarisasi scripting javascript yang dibuat oleh **European Computer Manufacture Association/(ECMA)**
+  EcmaScript adalah sebuah standarisasi scripting javascript yang dibuat oleh **European Computer Manufacture Association/(ECMA)**
 ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015. 
 
 **1. variable :**
 
-ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bersifat mutable/dapat dirubah dan const bersifat imutable/tidak dapat dirubah
+  ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bersifat mutable/dapat dirubah dan const bersifat imutable/tidak dapat dirubah
 
 **2. Arrow function :**
 
-penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
+  penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
+  
 const b = (x,y) => x+y;
 
 const c = (x,y,z) =>{
@@ -20,12 +21,12 @@ const c = (x,y,z) =>{
  
 **3. for of dan for in:**
 
-for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
+  for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
 //penggunaan for of pada array
 let array = ['rendi',28,'jakarta]
 for(const m of array){
-      console.log(m);
- }
+      console.log(m); }
+      
  for in digunakan didalam membantu perulangan property pada object
  //penggunaan for in untuk
  const mhs = {
@@ -34,21 +35,20 @@ for(const m of array){
     };
 
       for (a in mhs) {
-        console.log(a);
-}
+        console.log(a);}
 
-4.**Array.fill**
+4. **Array.fill**
 
-fill : pengisian value pada array
+  fill : pengisian value pada array
 
 example :
 const array1 = [1,2,3,4]
 
 console.log(array1.fill(0,2,4)) //expect array1 = [1,2,0,0] //mengisi angka 0 dimulai pada index 2 dan berakhir pada index 4
 
-5.**Array.find**
+5. **Array.find**
 
-find : mengembalikan nilai dari elemen pertama yang ditemukan pada suatu Array
+  find : mengembalikan nilai dari elemen pertama yang ditemukan pada suatu Array
 
 example :
 const array = [5, 12, 8, 130, 44]
@@ -61,7 +61,7 @@ const found = array.find(it => it > 10) 			//`Elemen 12`
 
 -**Array**
 
-Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam function ataupun ke dalam object atau array.
+  Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam function ataupun ke dalam object atau array.
 spread berfungsi untuk mengabungkan 2 array atau lebih dan juga untuk mengcopy array
 
 example:
@@ -85,7 +85,7 @@ let arr1=["mentari","ronaldinho","rivaldo"]
            
 -**Object**
 
-spread operator pada object : spread operator juga bisa diterapkan di object
+  spread operator pada object : spread operator juga bisa diterapkan di object
 contoh:
 //diterapkan pada destructor object
 let dest = {nama:"wali",alamat:"jakarta",umur:28};
@@ -95,7 +95,7 @@ console.log(bio); //expected {alamat:jakarta,umur:28}
 
 -**function**
 
-Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
+  Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
 function ada 2 : 
 1. function expression :function dapat didefinisikan dengan menggunakan expression yang dapat disimpan dalam sebuah variabel.
 
@@ -118,7 +118,7 @@ function(){
 
 -**Asynchronous**
 
-Proses eksekusi kode pada program yang berjalan tidak berurutan tanpa harus menunggu perintah kode sebelumnya selesai.
+  Proses eksekusi kode pada program yang berjalan tidak berurutan tanpa harus menunggu perintah kode sebelumnya selesai.
 
 example :
 
@@ -133,7 +133,7 @@ console.log("reborn");                          // ini ke-2
 
 -**callback**
 
-sebuah function yang memanggil parameter function tersebut dan menjalankannya kembali kedalam function yang berbeda
+  sebuah function yang memanggil parameter function tersebut dan menjalankannya kembali kedalam function yang berbeda
 
 example:
 
@@ -149,7 +149,7 @@ function callbck(callback)
 
 -**Promise**
 
-Sebuah object yang mempresentasikan sebuah penyelesaian perintah (atau bahkan sebuah error pada proses asynchronous) dan me-return value-nya atau bisa dibilang kejadian yang akn terjadi dimasa yang akan datang bisa sucees ataupun reject.
+  Sebuah object yang mempresentasikan sebuah penyelesaian perintah (atau bahkan sebuah error pada proses asynchronous) dan me-return value-nya atau bisa dibilang kejadian yang akn terjadi dimasa yang akan datang bisa sucees ataupun reject.
 
 example :
 
@@ -182,9 +182,9 @@ example :
  example :
  
  const a = async () => 
- 
  {
   return new Promise(resolve => {
+  
     setTimeout(() => {
       resolve(`It's over`);
     }, 1000);
@@ -193,10 +193,12 @@ example :
 
 (async () => 
 {
-  try {
+  try 
+  {
     console.log(await a());
   } 
-  catch (error) {
+  catch (error) 
+  {
     console.log(error);
   }
   
