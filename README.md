@@ -1,12 +1,16 @@
 ## Rangkuman Materi Belajar Javascript & ES-6
+
 * **Ecma-Script**
+
 EcmaScript adalah sebuah standarisasi scripting javascript yang dibuat oleh **European Computer Manufacture Association/(ECMA)**
 ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015. 
 
 **1. variable :**
+
 ada 2 penambahan variable didalam ecmascript yaitu let dan const dimana let bersifat mutable/dapat dirubah dan const bersifat imutable/tidak dapat dirubah
 
 **2. Arrow function :**
+
 penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
 const b = (x,y) => x+y;
 
@@ -15,6 +19,7 @@ const c = (x,y,z) =>{
  }
  
 **3. for of dan for in:**
+
 for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
 //penggunaan for of pada array
 let array = ['rendi',28,'jakarta]
@@ -77,6 +82,7 @@ let arr1=["mentari","ronaldinho","rivaldo"]
            console.log(arr1);  //expected arr: [mentari,ronaldinho,rivaldo]
            
            console.log(arr);    //expexted arr1: [rudy,ronaldinho,rivaldo] 
+           
 -**Object**
 
 spread operator pada object : spread operator juga bisa diterapkan di object
@@ -108,6 +114,7 @@ function(){
      console.log('heloo world')
  } 
  fun() //expected heloo world
+ 
 
 -**Asynchronous**
 
@@ -123,6 +130,7 @@ setTimeout(() => console.log(`world ${a}`), a);  // dan ini ke-3
 
 console.log("reborn");                          // ini ke-2
 
+
 -**callback**
 
 sebuah function yang memanggil parameter function tersebut dan menjalankannya kembali kedalam function yang berbeda
@@ -137,6 +145,7 @@ function callbck(callback)
         }
         //panngil calback
         callbck(nama => alert(`nama saya ${nama}`));
+
 
 -**Promise**
 
@@ -172,7 +181,9 @@ example :
  
  example :
  
- const a = async () => {
+ const a = async () => 
+ 
+ {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(`It's over`);
@@ -180,10 +191,12 @@ example :
   });
 };
 
-(async () => {
+(async () => 
+{
   try {
     console.log(await a());
-  } catch (error) {
+  } 
+  catch (error) {
     console.log(error);
   }
   
