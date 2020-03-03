@@ -55,6 +55,7 @@ const found = array.find(it => it > 10) 			//`Elemen 12`
 * **Javascript**
 
 -**Array**
+
 Spread operator adalah operator yang digunakan menyebarkan array baik ke dalam function ataupun ke dalam object atau array.
 spread berfungsi untuk mengabungkan 2 array atau lebih dan juga untuk mengcopy array
 
@@ -77,6 +78,7 @@ let arr1=["mentari","ronaldinho","rivaldo"]
            
            console.log(arr);    //expexted arr1: [rudy,ronaldinho,rivaldo] 
 -**Object**
+
 spread operator pada object : spread operator juga bisa diterapkan di object
 contoh:
 //diterapkan pada destructor object
@@ -86,6 +88,7 @@ let {nama,...bio}=dest;
 console.log(bio); //expected {alamat:jakarta,umur:28} 
 
 -**function**
+
 Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
 function ada 2 : 
 1. function expression :function dapat didefinisikan dengan menggunakan expression yang dapat disimpan dalam sebuah variabel.
