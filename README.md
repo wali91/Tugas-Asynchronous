@@ -34,7 +34,7 @@ for(const m of array){
 
 4.**Array.fill**
 
-pengisian value pada array
+fill : pengisian value pada array
 
 example :
 const array1 = [1,2,3,4]
@@ -103,4 +103,11 @@ function(){
 
 -**Asynchronous**
 Proses eksekusi kode pada program yang berjalan tidak berurutan tanpa harus menunggu perintah kode sebelumnya selesai.
+
+example :
+
+const a = Math.floor(Math.random() * 1000) + 1;  //
+console.log("hello");                            // ini akan tampil pertama
+setTimeout(() => console.log(`world ${a}`), a);  // dan ini ke-3
+console.log("reborn");                          // ini ke-2
 
