@@ -13,26 +13,30 @@ ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015.
 
   penyederhanaan penulisan function pada javascript adapun contohnya sebagai berikut:
   
-const b = (x,y) => x+y;
-
-const c = (x,y,z) =>{
-       return x+y*z;
- }
+  const b = (x,y) => x+y;
+  
+  const c = (x,y,z) =>
+  {
+  return x+y*z;
+  }
  
 **3. for of dan for in:**
 
   for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
+  
 //penggunaan for of pada array
+
 let array = ['rendi',28,'jakarta]
 for(const m of array){
       console.log(m); }
       
- for in digunakan didalam membantu perulangan property pada object
- //penggunaan for in untuk
+  for in digunakan didalam membantu perulangan property pada object
+  
+ //penggunaan for in 
  const mhs = {
         nama: "wali",
-         umur: 29
-    };
+         umur: 29 
+         };
 
       for (a in mhs) {
         console.log(a);}
