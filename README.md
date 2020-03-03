@@ -92,13 +92,18 @@ console.log(bio); //expected {alamat:jakarta,umur:28}
 Function merupakan sebuah code block yang digunakan untuk melakukan tugas tertentu, pada JavaScript mendeklarasikan function bisa dengan menggunakan keyword ‘function’, parentheses ‘( )’ dan curly bracket ‘{ do magic here }’
 function ada 2 : 
 1. function expression :function dapat didefinisikan dengan menggunakan expression yang dapat disimpan dalam sebuah variabel.
-  contoh :
+
+  example :
+  
   let fun = function(){
      console.log('heloo world')
  } 
  fun() //expected heloo world
+ 
 2. function declaration : function yang dideklarasikan tanpa menggunakan variable
-contoh:
+
+example:
+
 function(){
      console.log('heloo world')
  } 
