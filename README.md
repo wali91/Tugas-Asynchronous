@@ -49,13 +49,16 @@ let arr1=["mentari","ronaldinho","rivaldo"]
 
           //spread
           let allArr=[...arr,...arr1]; //expected:[wali,songo.rendy,ronaldo,mentari,ronaldinho,rivaldo]
+          
          //concat
          let allArr = arr.concat(arr1);  //expected:[wali,songo.rendy,ronaldo,mentari,ronaldinho,rivaldo]              
 
          //mengopy array
           let arr1 = [...arr]; 
            arr1[0]="rudy";  
+           
            console.log(arr1);  //expected arr: [mentari,ronaldinho,rivaldo]
+           
            console.log(arr);    //expexted arr1: [rudy,ronaldinho,rivaldo] 
 -**Object**
 spread operator pada object : spread operator juga bisa diterapkan di object
