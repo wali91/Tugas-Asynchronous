@@ -25,6 +25,7 @@ ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015.
   for of digunakan untuk membantu perulangan pada array,string,set,map contohnya sebagai berikut
   
   //penggunaan for of pada array
+  
      let array = ['rendi',28,'jakarta]
        for(const m of array)
        {
@@ -33,7 +34,8 @@ ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015.
       
   for in digunakan didalam membantu perulangan property pada object
   
-   //penggunaan for in 
+   //penggunaan for in untuk object
+   
    const mhs = {
    nama: "wali",
    umur: 29 
