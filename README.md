@@ -183,9 +183,9 @@ example :
  example :
  
  const a = async () => 
- {
-  return new Promise(resolve => {
-  
+ 
+ {return new Promise(resolve => {
+ 
     setTimeout(() => {
       resolve(`It's over`);
     }, 1000);});};
