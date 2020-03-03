@@ -49,6 +49,7 @@ ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015.
   fill : pengisian value pada array
 
 example :
+
 const array1 = [1,2,3,4]
 
 console.log(array1.fill(0,2,4)) //expect array1 = [1,2,0,0] //mengisi angka 0 dimulai pada index 2 dan berakhir pada index 4
@@ -58,6 +59,7 @@ console.log(array1.fill(0,2,4)) //expect array1 = [1,2,0,0] //mengisi angka 0 di
   find : mengembalikan nilai dari elemen pertama yang ditemukan pada suatu Array
 
 example :
+
 const array = [5, 12, 8, 130, 44]
 
 const found = array.find(it => it > 10) 			//`Elemen 12`
@@ -73,6 +75,7 @@ const found = array.find(it => it > 10) 			//`Elemen 12`
 spread berfungsi untuk mengabungkan 2 array atau lebih dan juga untuk mengcopy array
 
 example:
+
 let arr=["walie","songo","rendy","ronaldo"]
 
 let arr1=["mentari","ronaldinho","rivaldo"]
