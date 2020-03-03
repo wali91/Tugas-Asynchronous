@@ -131,6 +131,7 @@ example:
 
 function callbck(callback)
 {
+
             let nama = prompt("masukan nama:");
             callback(nama);
         }
@@ -138,6 +139,30 @@ function callbck(callback)
         callbck(nama => alert(`nama saya ${nama}`));
 
 -**Promise**
+
+Sebuah object yang mempresentasikan sebuah penyelesaian perintah (atau bahkan sebuah error pada proses asynchronous) dan me-return value-nya atau bisa dibilang kejadian yang akn terjadi dimasa yang akan datang bisa sucees ataupun reject.
+
+example :
+//promise
+
+      //state : fullfill,reject,pending
+      //callback : resolved,rejected,finally(bisa diingkari juga bisa ditepati)
+      //aksi : then = resolved , catch = reject
+      //contoh promise :
+      // let ditepati = false;
+
+      // let janji1 = new Promise((resolve,reject) =>{
+      //     if(ditepati){
+      //         resolve('janji ditepati');
+      //     }
+      //     else{
+      //         reject('janji diingkari');
+      //     }
+      // });
+
+      // janji1
+      //     .then(response => console.log('Ok : '+ response))
+      //     .catch(response => console.log('Not Ok : '+ response));
 
 
 
