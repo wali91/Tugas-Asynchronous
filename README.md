@@ -143,6 +143,7 @@ function callbck(callback)
 Sebuah object yang mempresentasikan sebuah penyelesaian perintah (atau bahkan sebuah error pada proses asynchronous) dan me-return value-nya atau bisa dibilang kejadian yang akn terjadi dimasa yang akan datang bisa sucees ataupun reject.
 
 example :
+
 //promise
 
       //state : fullfill,reject,pending
@@ -165,5 +166,26 @@ example :
       //     .catch(response => console.log('Not Ok : '+ response));
 
 
+-**Async-await**
 
+ Async function merupakan function yang mengandung ekspresi `await` untuk menunggu hasil dari sebuah promise diselesaikan terlebih dahulu (synchronous).
+ 
+ example :
+ 
+ const a = async () => {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(`It's over`);
+    }, 1000);
+  });
+};
+
+(async () => {
+  try {
+    console.log(await a());
+  } catch (error) {
+    console.log(error);
+  }
+  
+})();
 
