@@ -130,9 +130,11 @@ sebuah function yang memanggil parameter function tersebut dan menjalankannya ke
 example:
 
 function callbck(callback){
+
             let nama = prompt("masukan nama:");
             callback(nama);
         }
+        
         //panngil calback
         callbck(nama => alert(`nama saya ${nama}`));
 
