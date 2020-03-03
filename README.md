@@ -182,9 +182,7 @@ example :
  
  example :
  
- const a = async () => 
- 
- {return new Promise(resolve => {
+ const a = async () => {return new Promise(resolve => {
  
     setTimeout(() => {
       resolve(`It's over`);
