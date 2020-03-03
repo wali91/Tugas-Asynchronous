@@ -57,6 +57,7 @@ const found = array.find(it => it > 10) 			//`Elemen 12`
 
 6.**dan masih banyak lagi [link ke kode es6](http://es6-features.org/)**
 
+
 * **Javascript**
 
 -**Array**
