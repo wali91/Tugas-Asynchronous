@@ -188,20 +188,13 @@ example :
   
     setTimeout(() => {
       resolve(`It's over`);
-    }, 1000);
-  });
-};
-
-(async () => 
-{
-  try 
-  {
+    }, 1000);});};
+    (async () => {
+    try {
     console.log(await a());
-  } 
-  catch (error) 
-  {
+    } catch (error) 
+    {
     console.log(error);
-  }
-  
-})();
+    } 
+    })();
 
