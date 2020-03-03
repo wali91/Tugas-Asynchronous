@@ -38,9 +38,10 @@ ES6 diluncurkan pada tahun 2015, jadi ES6 sama dengan ES 2015.
    
    const mhs = { nama: "wali",umur: 29 };
    
-   for (a in mhs) 
-   {
+   for (a in mhs) { 
+   
    console.log(a)
+   
    }
 
 4. **Array.fill**
